@@ -9,24 +9,17 @@
                 android:paddingRight="8dp"
                 android:paddingTop="3dp">
 
-    <com.makeramen.roundedimageview.RoundedImageView
-        android:id="@+id/message_photo"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:scaleType="fitXY"
-        android:src="@drawable/ic_profile"
-        app:riv_corner_radius="2dp" />
+
 
     <LinearLayout
         android:id="@+id/message_box"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@+id/message_photo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:background="@drawable/message_bubble_received"
-        android:minHeight="53dp"
+        android:minHeight="45dp"
         android:layout_marginTop="-2dp"
         android:layout_marginRight="-4dp"
         android:longClickable="true">
@@ -34,7 +27,7 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
-            android:gravity="center_vertical"
+            android:gravity="center_horizontal"
             android:orientation="vertical"
             android:padding="2dp">
 
@@ -49,7 +42,7 @@
                 android:background="@color/black87"
                 android:scaleType="centerCrop" />
 
-            <eu.siacs.conversations.ui.widget.CopyTextView
+            <gov.jandarma.ulak.ui.widget.CopyTextView
                 android:id="@+id/message_body"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -79,8 +72,8 @@
                     android:id="@+id/message_encryption"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:gravity="center_vertical"
+                    android:layout_gravity="left"
+                    android:gravity="left"
                     android:layout_marginRight="4sp"
                     android:textColor="@color/white70"
                     android:textStyle="bold"
@@ -90,28 +83,28 @@
                     android:id="@+id/security_indicator"
                     android:layout_width="?attr/TextSizeInfo"
                     android:layout_height="?attr/TextSizeInfo"
-                    android:layout_gravity="center_vertical"
+                    android:layout_gravity="left"
                     android:layout_marginRight="4sp"
                     android:alpha="0.70"
-                    android:gravity="center_vertical"
+                    android:gravity="left"
                     android:src="@drawable/ic_lock_white_18dp" />
 
                 <ImageView
                     android:id="@+id/edit_indicator"
                     android:layout_width="?attr/TextSizeInfo"
                     android:layout_height="?attr/TextSizeInfo"
-                    android:layout_gravity="center_vertical"
+                    android:layout_gravity="left"
                     android:layout_marginRight="4sp"
                     android:alpha="0.70"
-                    android:gravity="center_vertical"
+                    android:gravity="left"
                     android:src="@drawable/ic_mode_edit_white_18dp" />
 
                 <TextView
                     android:id="@+id/message_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:gravity="center_vertical"
+                    android:layout_gravity="left"
+                    android:gravity="left"
                     android:text="@string/sending"
                     android:textColor="@color/white70"
                     android:textSize="?attr/TextSizeInfo" />

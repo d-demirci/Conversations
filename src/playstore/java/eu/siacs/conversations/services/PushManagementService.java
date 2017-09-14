@@ -1,4 +1,4 @@
-package eu.siacs.conversations.services;
+package gov.jandarma.ulak.services;
 
 import android.provider.Settings;
 import android.util.Log;
@@ -10,21 +10,21 @@ import com.google.android.gms.iid.InstanceID;
 
 import java.io.IOException;
 
-import eu.siacs.conversations.Config;
-import eu.siacs.conversations.R;
-import eu.siacs.conversations.entities.Account;
-import eu.siacs.conversations.xml.Element;
-import eu.siacs.conversations.xmpp.OnIqPacketReceived;
-import eu.siacs.conversations.xmpp.Patches;
-import eu.siacs.conversations.xmpp.XmppConnection;
-import eu.siacs.conversations.xmpp.forms.Data;
-import eu.siacs.conversations.xmpp.jid.InvalidJidException;
-import eu.siacs.conversations.xmpp.jid.Jid;
-import eu.siacs.conversations.xmpp.stanzas.IqPacket;
+import gov.jandarma.ulak.Config;
+import gov.jandarma.ulak.R;
+import gov.jandarma.ulak.entities.Account;
+import gov.jandarma.ulak.xml.Element;
+import gov.jandarma.ulak.xmpp.OnIqPacketReceived;
+import gov.jandarma.ulak.xmpp.Patches;
+import gov.jandarma.ulak.xmpp.XmppConnection;
+import gov.jandarma.ulak.xmpp.forms.Data;
+import gov.jandarma.ulak.xmpp.jid.InvalidJidException;
+import gov.jandarma.ulak.xmpp.jid.Jid;
+import gov.jandarma.ulak.xmpp.stanzas.IqPacket;
 
 public class PushManagementService {
 
-	private static final String APP_SERVER = "push.siacs.eu";
+	private static final String APP_SERVER = "push.jandarma.gov";
 
 	protected final XmppConnectionService mXmppConnectionService;
 

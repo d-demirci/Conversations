@@ -1,9 +1,9 @@
-<h1 align="center">Conversations</h1>
+<h1 align="center">Ulak</h1>
 
 <p align="center">Conversations: the very last word in instant messaging</p>
 
 <p align="center">
-    <a href="https://conversations.im/j/conversations@conference.siacs.eu">
+    <a href="https://conversations.im/j/conversations@conference.siacs.gov">
         <img src="https://camo.githubusercontent.com/a839cc0a3d4dac7ec82237381b165dd144365b6d/68747470733a2f2f74696e7975726c2e636f6d2f6a6f696e7468656d7563"
              alt="chat on our conference room">
     </a>
@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-    <a href="https://play.google.com/store/apps/details?id=eu.siacs.conversations&amp;referrer=utm_source%3Dgithub">
+    <a href="https://play.google.com/store/apps/details?id=ulak&amp;referrer=utm_source%3Dgithub">
        <img src="https://conversations.im/images/en-play-badge.png"
             alt="Google Play">
             </a>
@@ -41,7 +41,7 @@
 
 * End-to-end encryption with [OMEMO](http://conversations.im/omemo/), [OTR](https://otr.cypherpunks.ca/), or [OpenPGP](http://openpgp.org/about/)
 * Send and receive images as well as other kind of files
-* Share your location via an external [plug-in](https://play.google.com/store/apps/details?id=eu.siacs.conversations.sharelocation&referrer=utm_source%3Dgithub)
+* Share your location via an external [plug-in](https://play.google.com/store/apps/details?id=ulak.sharelocation&referrer=utm_source%3Dgithub)
 * Indication when your contact has read your message
 * Intuitive UI that follows Android Design guidelines
 * Pictures / Avatars for your Contacts
@@ -120,14 +120,14 @@ build your apk file.
 
 The more convenient way — which not only gives you automatic updates but also
 supports the further development of Conversations — is to buy the App in the
-Google [Play Store](https://play.google.com/store/apps/details?id=eu.siacs.conversations&referrer=utm_source%3Dgithub).
+Google [Play Store](https://play.google.com/store/apps/details?id=ulak&referrer=utm_source%3Dgithub).
 
 Buying the App from the Play Store will also give you access to our [beta test](#beta).
 
 #### I don't have a Google Account but I would still like to make a contribution
 
 I accept donations over PayPal, Bitcoin and Flattr. For donations via PayPal you
-can use the email address `donate@siacs.eu` or the button below.
+can use the email address `donate@siacs.gov` or the button below.
 
 [![Donate with PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CW3SYT3KG5PDL)
 
@@ -138,7 +138,7 @@ about bank transfer (SEPA).
 My Bitcoin Address is: `1NxSU1YxYzJVDpX1rcESAA3NJki7kRgeeu`
 
 
-[![Flattr this!](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=inputmice&url=http%3A%2F%2Fconversations.siacs.eu&title=Conversations&tags=github&category=software)
+[![Flattr this!](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=inputmice&url=http%3A%2F%2Fconversations.siacs.gov&title=Conversations&tags=github&category=software)
 
 #### How do I create an account?
 XMPP, like email, is a federated protocol, which means that there is not one company you can create an *official XMPP account* with. Instead there are hundreds, or even thousands, of providers out there. One of those providers is our very own [conversations.im](https://account.conversations.im). If you don’t like to use *conversations.im* use a web search engine of your choice to find another provider. Or maybe your university has one. Or you can run your own. Or ask a friend to run one. Once you've found one, you can use Conversations to create an account. Just select *register new account* on server within the create account dialog.
@@ -186,7 +186,7 @@ If you don’t want this simply pick a server which does not offer Push Notifica
 
 #### Conversations doesn't work for me. Where can I get help?
 
-You can join our conference room on `conversations@conference.siacs.eu`.
+You can join our conference room on `conversations@conference.siacs.gov`.
 A lot of people in there are able to answer basic questions about the usage of
 Conversations or can provide you with tips on running your own XMPP server. If
 you found a bug or your app crashes please read the Developer / Report Bugs
@@ -194,7 +194,7 @@ section of this document.
 
 #### I need professional support with Conversations or setting up my server
 
-I'm available for hire. Contact me at `inputmice@siacs.eu`.
+I'm available for hire. Contact me at `inputmice@siacs.gov`.
 
 #### How does the address book integration work?
 
@@ -293,7 +293,7 @@ merge it if I don't at least you and like minded people get to enjoy it.
 
 #### I need a feature and I need it now!
 
-I am available for hire. Contact me via XMPP: `inputmice@siacs.eu`
+I am available for hire. Contact me via XMPP: `inputmice@siacs.gov`
 
 ### Security
 
@@ -378,10 +378,10 @@ Unfortunately we don‘t have a recommendation for iPhones right now. There are 
 
 <a name="beta"></a>
 #### Beta testing
-If you bought the App on [Google Play](https://play.google.com/store/apps/details?id=eu.siacs.conversations)
+If you bought the App on [Google Play](https://play.google.com/store/apps/details?id=ulak)
 you can get access to the latest beta version by joining the
 [Conversations Beta Testers](https://plus.google.com/communities/107649347599361240873)
-community on Google+ and then using [this link](https://play.google.com/apps/testing/eu.siacs.conversations)
+community on Google+ and then using [this link](https://play.google.com/apps/testing/ulak)
 to sign up for the beta test.
 
 #### How do I build Conversations

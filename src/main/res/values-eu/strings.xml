@@ -362,7 +362,7 @@
   <string name="verified">Egiaztatuta!</string>
   <string name="smp_requested">Kontaktuak SMP egiaztapena eskatu du</string>
   <string name="no_otr_session_found">Ez da OTR saio baliodunik aurkitu!</string>
-  <string name="conversations_foreground_service">Conversations</string>
+  <string name="conversations_foreground_service">Ulak</string>
   <string name="pref_keep_foreground_service">Zerbitzua atzeko planoan mantendu</string>
   <string name="pref_keep_foreground_service_summary">Sistema eragileak zure konexioa hiltzea galarazten du</string>
   <string name="pref_export_logs">Historia esportatu</string>

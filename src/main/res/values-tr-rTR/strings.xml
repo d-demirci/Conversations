@@ -58,8 +58,8 @@
   <string name="unblock">Engellemeyi kaldır</string>
   <string name="save">Kaydet</string>
   <string name="ok">Tamam</string>
-  <string name="crash_report_title">Conversations çöktü</string>
-  <string name="crash_report_message">Çöküş raporu göndermeniz Conversations\n’ın geliştirilmesine katkıda bulunacaktır.<b>Uyarı:</b>Bu rapor yazılım geliştiriciye XMPP hesabınız üzerinden gönderilecektir.</string>
+  <string name="crash_report_title">Ulak çöktü</string>
+  <string name="crash_report_message">Çöküş raporu göndermeniz Ulak\n’ın geliştirilmesine katkıda bulunacaktır.<b>Uyarı:</b>Bu rapor yazılım geliştiriciye XMPP hesabınız üzerinden gönderilecektir.</string>
   <string name="send_now">Şimdi gönder</string>
   <string name="send_never">Bir daha sorma</string>
   <string name="problem_connecting_to_account">Hesaba bağlanılamıyor</string>
@@ -79,26 +79,26 @@
   <string name="delete_messages">İletileri sil</string>
   <string name="also_end_conversation">Sonrasında bu konuşmayı sonlandır</string>
   <string name="choose_presence">Aygıt seç</string>
-  <string name="send_unencrypted_message">Şifrelenmemiş ileti gönder</string>
+  <string name="send_unencrypted_message">Bir mesaj yaz</string>
   <string name="send_message_to_x">%s kişisine ileti gönder</string>
-  <string name="send_otr_message">OTR ile şifrelenmiş ileti gönder</string>
-  <string name="send_omemo_message">OMEMO ile şifrelenmiş ileti gönder</string>
-  <string name="send_omemo_x509_message">v\\OMEMO ile şifrelenmiş ileti gönder</string>
-  <string name="send_pgp_message">OpenPGP ile şifrelenmiş ileti gönder</string>
+  <string name="send_otr_message">Bir mesaj yaz</string>
+  <string name="send_omemo_message">Bir mesaj yaz</string>
+  <string name="send_omemo_x509_message">v\\Bir mesaj yaz</string>
+  <string name="send_pgp_message">Bir mesaj yaz</string>
   <string name="your_nick_has_been_changed">Rumuzunuz değişti</string>
   <string name="send_unencrypted">Şifrelenmemiş gönder</string>
   <string name="decryption_failed">Deşifre edilemedi. Uygun bir özel anahtarınız olmayabilir.</string>
   <string name="openkeychain_required">OpenKeychain</string>
-  <string name="openkeychain_required_long">Conversations iletileri şifreleyip deşifre etmek ve ortak anahtarlarınızı yönetmek için bir üçüncü parti uygulaması olan <b>OpenKeychain’i</b> kullanmaktadır. \n\nOpenKeychain GPLv3 altında lisanslı olup F-Droid ve Google Play’den indirilebilir.\n\n<small>(Lütfen daha sonra Conversations’ı yeniden başlatın.)</small></string>
+  <string name="openkeychain_required_long">Ulak iletileri şifreleyip deşifre etmek ve ortak anahtarlarınızı yönetmek için bir üçüncü parti uygulaması olan <b>OpenKeychain’i</b> kullanmaktadır. \n\nOpenKeychain GPLv3 altında lisanslı olup F-Droid ve Google Play’den indirilebilir.\n\n<small>(Lütfen daha sonra Ulak’ı yeniden başlatın.)</small></string>
   <string name="restart">Yeniden başlat</string>
   <string name="install">Kur</string>
   <string name="openkeychain_not_installed">Lütfen OpenKeychain’i kur</string>
   <string name="offering">sunuluyor…</string>
   <string name="waiting">bekliyor…</string>
   <string name="no_pgp_key">Herhangi bir OpenPGP anahtarı bulunamadı</string>
-  <string name="contact_has_no_pgp_key">Kişi ortak anahtarını yayımlamadığı için Conversations iletilerinizi şifreleyemiyor.\n\n<small>Lütfen kişiden OpenPGP’yi ayarlamasını isteyin.</small></string>
+  <string name="contact_has_no_pgp_key">Kişi ortak anahtarını yayımlamadığı için Ulak iletilerinizi şifreleyemiyor.\n\n<small>Lütfen kişiden OpenPGP’yi ayarlamasını isteyin.</small></string>
   <string name="no_pgp_keys">Herhangi bir OpenPGP anahtarı bulunamadı</string>
-  <string name="contacts_have_no_pgp_keys">Kişiler ortak anahtarlarını yayımlamadığı için Conversations iletilerinizi şifreleyemiyor.\n\n<small>Lütfen kişilerden OpenPGP’yi ayarlamalarını isteyin.</small></string>
+  <string name="contacts_have_no_pgp_keys">Kişiler ortak anahtarlarını yayımlamadığı için Ulak iletilerinizi şifreleyemiyor.\n\n<small>Lütfen kişilerden OpenPGP’yi ayarlamalarını isteyin.</small></string>
   <string name="pref_general">Genel</string>
   <string name="pref_xmpp_resource">XMPP kaynağı</string>
   <string name="pref_xmpp_resource_summary">İstemci kimliği</string>
@@ -117,10 +117,10 @@
   <string name="pref_sound">Zil sesi</string>
   <string name="pref_sound_summary">Yeni bir ileti geldiğinde sesli bildir</string>
   <string name="pref_notification_grace_period">Mühlet</string>
-  <string name="pref_notification_grace_period_summary">Başka bir aygıt üstünde etkinlik algılandığında Conversations\'ın sessiz kalma süresi</string>
+  <string name="pref_notification_grace_period_summary">Başka bir aygıt üstünde etkinlik algılandığında Ulak\'ın sessiz kalma süresi</string>
   <string name="pref_advanced_options">Gelişmiş</string>
   <string name="pref_never_send_crash">Asla çöküş raporu gönderme</string>
-  <string name="pref_never_send_crash_summary">Çöküş raporu göndermeniz Conversations’ın geliştirilmesine katkıda bulunacaktır.</string>
+  <string name="pref_never_send_crash_summary">Çöküş raporu göndermeniz Ulak’ın geliştirilmesine katkıda bulunacaktır.</string>
   <string name="pref_confirm_messages">İletileri onayla</string>
   <string name="pref_confirm_messages_summary">Onların iletilerini aldığınızda ve okuduğunuzda, kişilerinizin bunu bilmesini sağlayın</string>
   <string name="pref_ui_options">Arabirim</string>
@@ -173,15 +173,15 @@
   <string name="mgmt_account_enable">Hesabı etkinleştir</string>
   <string name="mgmt_account_are_you_sure">Emin misiniz?</string>
   <string name="attach_record_voice">Ses kaydet</string>
-  <string name="account_settings_jabber_id">Jabber ID</string>
-  <string name="block_jabber_id">Jabber ID engelle</string>
+  <string name="account_settings_jabber_id">Ulak ID</string>
+  <string name="block_jabber_id">Ulak ID engelle</string>
   <string name="account_settings_password">Parola</string>
   <string name="account_settings_example_jabber_id">kullanıcıadı@ornek.com</string>
   <string name="account_settings_confirm_password">Parolayı doğrula</string>
   <string name="password">parola</string>
   <string name="confirm_password">Parolayı doğrula</string>
   <string name="passwords_do_not_match">Parolalar eşleşmiyor</string>
-  <string name="invalid_jid">Jabber ID geçersiz</string>
+  <string name="invalid_jid">Ulak ID geçersiz</string>
   <string name="error_out_of_memory">Yetersiz bellek. Görüntü dosyası çok büyük.</string>
   <string name="add_phone_book_text">%s kişisini listenize eklemek ister misiniz?</string>
   <string name="contact_status_online">çevrim içi</string>
@@ -297,8 +297,31 @@
   <string name="pref_dont_save_encrypted_summary">Uyarı: Bu, iletilerin kaybedilmesine neden olabilir</string>
   <string name="pref_expert_options">Uzman seçenekleri</string>
   <string name="pref_expert_options_summary">Lütfen dikkatli olun</string>
-  <string name="title_activity_about">Conversations hakkında</string>
+  <string name="title_activity_about">Ulak hakkında</string>
   <string name="pref_about_conversations_summary">Geliştirme ve lisans bilgisi</string>
+  <string name="pref_about_message" >
+			Ulak • mesajlaşmak için başka uygulamaya ihtiyacınız yok.
+			\n\nCopyright © 2014-2017 Daniel Gultsch
+			\n\nSpecial Thanks to : Daniel Gultsch https://github.com/siacs/Conversations
+			\n\n\nKullanılan Kütüphaneler
+			\n\nhttps://www.bouncycastle.org\n(The MIT License (MIT))
+			\n\nhttps://www.gnu.org/software/libidn\n(Apache License, Version 2.0)
+			\n\nhttps://github.com/ge0rg/MemorizingTrustManager\n(The MIT License (MIT))
+			\n\nhttps://github.com/rtreffer/minidns\n(WTFPL)
+			\n\nhttps://github.com/open-keychain/openkeychain-api-lib\n(Apache License, Version 2.0)
+			\n\nhttps://github.com/jitsi/otr4j\n(LGPL-3.0)
+			\n\nhttps://developer.android.com/tools/support-library\n(Apache License, Version 2.0)
+			\n\nhttps://github.com/zxing/zxing\n(Apache License, Version 2.0)
+			\n\nhttps://github.com/google/material-design-icons\n(CC BY 4.0)
+			\n\nhttps://github.com/timroes/EnhancedListView\n(Apache License, Version 2.0)
+			\n\nhttps://github.com/leolin310148/ShortcutBadger\n(Apache License, Version 2.0)
+			\n\nhttps://github.com/kyleduo/SwitchButton\n(Apache License, Version 2.0)
+			\n\nhttps://github.com/WhisperSystems/libaxolotl-java\n(GPLv3)
+			\n\nhttps://github.com/vinc3m1/RoundedImageView\n(Apache License, Version 2.0)
+			\n\nhttps://github.com/jdamcd/android-crop\n(Apache License, Version 2.0)
+		    \n\nhttps://github.com/vdurmont/emoji-java\n(The MIT License)
+	</string>
+  <string name="welcome_header">Nerede kaldınız ? </string>
   <string name="title_pref_quiet_hours">Sessiz Saatler</string>
   <string name="title_pref_quiet_hours_start_time">Başlangıç zamanı</string>
   <string name="title_pref_quiet_hours_end_time">Bitiş zamanı</string>
@@ -357,11 +380,11 @@
   <string name="verified">Doğrulandı!</string>
   <string name="smp_requested">Kişi SMP doğrulaması istedi</string>
   <string name="no_otr_session_found">Geçerli bir OTR oturumu bulunamadı!</string>
-  <string name="conversations_foreground_service">Conversations</string>
+  <string name="conversations_foreground_service">Ulak</string>
   <string name="pref_keep_foreground_service">Ön planda çalışmaya devam etsin</string>
   <string name="pref_keep_foreground_service_summary">İşletim sisteminin bağlantınızı koparmasına engel olur</string>
   <string name="pref_export_logs">Geçmişi dışarı aktar</string>
-  <string name="pref_export_logs_summary">Conversations geçmiş kayıtlarını SD karta yaz</string>
+  <string name="pref_export_logs_summary">Ulak geçmiş kayıtlarını SD karta yaz</string>
   <string name="notification_export_logs_title">Kayıtları SD karta yazıyor</string>
   <string name="choose_file">Dosya seç</string>
   <string name="receiving_x_file">%1$s alıyor/(%2$d%% tamamlandı)</string>
@@ -459,7 +482,7 @@
   <string name="vcard">Kişi</string>
   <string name="received_x_file">%s alındı</string>
   <string name="disable_foreground_service">Ön planda çalışmasını devre dışı bırak</string>
-  <string name="touch_to_open_conversations">Conversations’ı başlatmak için dokunun</string>
+  <string name="touch_to_open_conversations">Ulak’ı başlatmak için dokunun</string>
   <string name="avatar_has_been_published">Avatar yayımlandı!</string>
   <string name="sending_x_file">%s gönderiliyor</string>
   <string name="offering_x_file">%s sunuluyor</string>
@@ -532,7 +555,7 @@
   <string name="captcha_required">Captcha gerekli</string>
   <string name="captcha_hint">Resimdeki yazıyı girin</string>
   <string name="certificate_chain_is_not_trusted">Sertifika zinciri güvenilir değil</string>
-  <string name="jid_does_not_match_certificate">Jabber ID sertifikayla eşleşmiyor</string>
+  <string name="jid_does_not_match_certificate">Ulak ID sertifikayla eşleşmiyor</string>
   <string name="action_renew_certificate">Sertifikayı yenile</string>
   <string name="error_fetching_omemo_key">OMEMO anahtarı alınırken hata oluştu!</string>
   <string name="verified_omemo_key_with_certificate">Sertifikalı OMEMO anahtarı onaylandı!</string>
@@ -554,9 +577,9 @@
   <string name="shared_image_with_x">%s ile paylaşılan resim</string>
   <string name="shared_images_with_x">%s ile paylaşılan resimler</string>
   <string name="shared_text_with_x">%s ile paylaşılan metin</string>
-  <string name="no_storage_permission">Conversations’ın harici depolama alanına erişmesi gerek </string>
+  <string name="no_storage_permission">Ulak’ın harici depolama alanına erişmesi gerek </string>
   <string name="sync_with_contacts">Kişilerle senkronize et</string>
-  <string name="sync_with_contacts_long">Conversations XMPP listenizi telefon rehberinizle eşleştirerek kişilerin tam adlarını ve avatarlarını göstermek istiyor.\n\nConversations telefon rehberinizi yalnızca okuyacak ve onları sunucunuza yüklemeden eşleştirecek.\n\nŞimdi telefon rehberinize erişilmesine izin vermeniz istenecek.</string>
+  <string name="sync_with_contacts_long">Ulak XMPP listenizi telefon rehberinizle eşleştirerek kişilerin tam adlarını ve avatarlarını göstermek istiyor.\n\nUlak telefon rehberinizi yalnızca okuyacak ve onları sunucunuza yüklemeden eşleştirecek.\n\nŞimdi telefon rehberinize erişilmesine izin vermeniz istenecek.</string>
   <string name="certificate_information">Sertifika Bilgisi</string>
   <string name="certificate_subject">Konu</string>
   <string name="certificate_issuer">Veren</string>
@@ -573,8 +596,8 @@
   <string name="always">Her zaman</string>
   <string name="automatically">Kendiliğinden</string>
   <string name="battery_optimizations_enabled">Pil optimizasyonu devrede</string>
-  <string name="battery_optimizations_enabled_explained">Aygıtınız Conversations üzerinde yoğun pil iyileştirmesi yaptığı için bildirimlerde gecikmeler olabilir üstelik bazı ileti kayıpları yaşanabilir.\nBu durumla karşılaşamamak için devre dışı bırakmanız önerilir. </string>
-  <string name="battery_optimizations_enabled_dialog">Aygıtınız Conversations üzerinde yoğun pil iyileştirmesi yaptığı için bildirimlerde gecikmeler olabilir üstelik bazı ileti kayıpları yaşanabilir.\n Şimdi bunları devre dışı bırakmanız istenecek.</string>
+  <string name="battery_optimizations_enabled_explained">Aygıtınız Ulak üzerinde yoğun pil iyileştirmesi yaptığı için bildirimlerde gecikmeler olabilir üstelik bazı ileti kayıpları yaşanabilir.\nBu durumla karşılaşamamak için devre dışı bırakmanız önerilir. </string>
+  <string name="battery_optimizations_enabled_dialog">Aygıtınız Ulak üzerinde yoğun pil iyileştirmesi yaptığı için bildirimlerde gecikmeler olabilir üstelik bazı ileti kayıpları yaşanabilir.\n Şimdi bunları devre dışı bırakmanız istenecek.</string>
   <string name="disable">Devre dışı</string>
   <string name="selection_too_large">Seçilen alan çok büyük</string>
   <string name="no_accounts">(Etkin hesap bulunmuyor)</string>
@@ -587,9 +610,9 @@
   <string name="security_error_invalid_file_access">Güvenlik hatası: Geçersiz dosya erişimi</string>
   <string name="no_application_to_share_uri">URI paylaşmak için uygulama bulunamadı</string>
   <string name="share_uri_with">URI paylaş ile...</string>
-  <string name="welcome_text">XMPP servis sağlayıcısından bağımsız bir iletişim kuralıdır. Bu istemciyi dilediğiniz XMPP sunucusuyla birlikte kullanabilirsiniz\nLakin rahat etmeniz için Conversations istemcisiyle kullanmanız için oluşturduğumuz conversation.im¹ sunucusu üzerinde hesap açmayı kolaylaştırdık.</string>
-  <string name="magic_create_text">conversation.im sağlayıcısında hesap açma sürecinde size yol göstereceğiz.\nconversation.im\'i bir servis sağlayıcı olarak kullandığınızda diğer sağlayıcıları kullananlarla tam Jabber kimliğinizi vererek iletişim kurabilirsiniz.</string>
-  <string name="your_full_jid_will_be">Tam Jabber kimliğiniz %s olacak</string>
+  <string name="welcome_text">XMPP servis sağlayıcısından bağımsız bir iletişim kuralıdır. Bu istemciyi dilediğiniz XMPP sunucusuyla birlikte kullanabilirsiniz\nLakin rahat etmeniz için Ulak istemcisiyle kullanmanız için oluşturduğumuz xmpp.whitehat.blog¹ sunucusu üzerinde hesap açmayı kolaylaştırdık.</string>
+  <string name="magic_create_text">xmpp.whitehat.blog sağlayıcısında hesap açma sürecinde size yol göstereceğiz.\nxmpp.whitehat.blog\'u bir servis sağlayıcı olarak kullandığınızda diğer sağlayıcıları kullananlarla tam Ulak kimliğinizi vererek iletişim kurabilirsiniz.</string>
+  <string name="your_full_jid_will_be">Tam Ulak kimliğiniz %s olacak</string>
   <string name="create_account">Hesap Oluştur</string>
   <string name="use_own_provider">Kendi sağlayıcımı kullan</string>
   <string name="pick_your_username">Kullanıcı adınızı seçin</string>
@@ -618,7 +641,7 @@
   <string name="gp_medium">Orta</string>
   <string name="gp_long">Uzun</string>
   <string name="pref_broadcast_last_activity">Son kullanıcı etkileşimini yayımla</string>
-  <string name="pref_broadcast_last_activity_summary">Tüm kişileriniz ne zaman Conversations kullandığınızı görsün</string>
+  <string name="pref_broadcast_last_activity_summary">Tüm kişileriniz ne zaman Ulak kullandığınızı görsün</string>
   <string name="pref_privacy">Gizlilik</string>
   <string name="pref_theme_options">Gövde</string>
   <string name="pref_theme_options_summary">Renk paletini seçin</string>
@@ -654,8 +677,8 @@
   <string name="show_error_message">Hata iletisini göster</string>
   <string name="error_message">Hata İletisi</string>
   <string name="data_saver_enabled">Veri tasarrufu etkin</string>
-  <string name="data_saver_enabled_explained">İşletim sisteminiz Conversations arka planda çalışırken İnternet erişimini sınırlıyor. Yeni ileti alındığında uyarı gelmesi için Conversations\'a veri tasarrufu etkin durumdayken sınırsız erişim vermeniz gerekiyor.\nConversations mümkün olan durumlarda veri tasarrufu için çaba harcar.</string>
-  <string name="device_does_not_support_data_saver">Aygıtınız Conversations için Veri tasarrufunu devre dışı bırakmayı desteklemiyor</string>
+  <string name="data_saver_enabled_explained">İşletim sisteminiz Ulak arka planda çalışırken İnternet erişimini sınırlıyor. Yeni ileti alındığında uyarı gelmesi için Ulak\'a veri tasarrufu etkin durumdayken sınırsız erişim vermeniz gerekiyor.\nUlak mümkün olan durumlarda veri tasarrufu için çaba harcar.</string>
+  <string name="device_does_not_support_data_saver">Aygıtınız Ulak için Veri tasarrufunu devre dışı bırakmayı desteklemiyor</string>
   <string name="error_unable_to_create_temporary_file">Geçici dosya oluşturulamıyor</string>
   <string name="this_device_has_been_verified">Bu aygıt doğrulandı</string>
   <string name="copy_fingerprint">Parmak izini kopyala</string>

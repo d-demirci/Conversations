@@ -362,7 +362,7 @@
   <string name="verified">検証しました!</string>
   <string name="smp_requested">連絡先が SMP 検証を要求しました</string>
   <string name="no_otr_session_found">有効な OTR セッションが見つかりません!</string>
-  <string name="conversations_foreground_service">Conversations</string>
+  <string name="conversations_foreground_service">Ulak</string>
   <string name="pref_keep_foreground_service">サービスをフォアグラウンドに保持</string>
   <string name="pref_keep_foreground_service_summary">オペレーティングシステムが接続を切断するのを防止します</string>
   <string name="pref_export_logs">履歴をエクスポート</string>

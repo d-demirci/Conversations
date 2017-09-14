@@ -9,26 +9,17 @@
                 android:paddingRight="8dp"
                 android:paddingTop="3dp">
 
-    <com.makeramen.roundedimageview.RoundedImageView
-        android:id="@+id/message_photo"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:scaleType="fitXY"
-        android:paddingBottom="3dp"
-        android:src="@drawable/ic_profile"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        app:riv_corner_radius="2dp" />
+
 
     <LinearLayout
         android:id="@+id/message_box"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_toLeftOf="@+id/message_photo"
-        android:background="?attr/message_bubble_sent"
-        android:minHeight="53dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+       android:background="?attr/message_bubble_sent"
+       android:minHeight="45dp"
         android:layout_marginLeft="-4dp"
         android:longClickable="true">
 
@@ -50,7 +41,7 @@
                 android:longClickable="true"
                 android:scaleType="centerCrop" />
 
-            <eu.siacs.conversations.ui.widget.CopyTextView
+            <gov.jandarma.ulak.ui.widget.CopyTextView
                 android:id="@+id/message_body"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -72,16 +63,18 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="right"
+                android:layout_gravity="end"
                 android:orientation="horizontal"
-                android:paddingBottom="2dp">
+                android:paddingBottom="2dp"
+                android:paddingLeft="5dp">
 
                 <TextView
                     android:id="@+id/message_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:gravity="center_vertical"
+
+                    android:layout_gravity="end"
+                    android:gravity="end"
                     android:text="@string/sending"
                     android:textColor="?attr/color_text_secondary"
                     android:textSize="?attr/TextSizeInfo" />
@@ -90,30 +83,32 @@
                     android:id="@+id/security_indicator"
                     android:layout_width="?attr/TextSizeInfo"
                     android:layout_height="?attr/TextSizeInfo"
-                    android:layout_gravity="center_vertical"
+                   android:layout_gravity="end"
                     android:layout_marginLeft="4sp"
                     android:alpha="0.54"
-                    android:gravity="center_vertical"
+                    android:gravity="end"
                     android:src="@drawable/ic_lock_black_18dp" />
 
                 <ImageView
                     android:id="@+id/edit_indicator"
                     android:layout_width="?attr/TextSizeInfo"
                     android:layout_height="?attr/TextSizeInfo"
-                    android:layout_gravity="center_vertical"
+
+                    android:layout_gravity="end"
                     android:layout_marginLeft="4sp"
                     android:alpha="0.54"
-                    android:gravity="center_vertical"
+                    android:gravity="end"
                     android:src="@drawable/ic_mode_edit_black_18dp" />
 
                 <ImageView
                     android:id="@+id/indicator_received"
                     android:layout_width="?attr/TextSizeInfo"
                     android:layout_height="?attr/TextSizeInfo"
-                    android:layout_gravity="center_vertical"
+
+                    android:layout_gravity="end"
                     android:layout_marginLeft="4sp"
                     android:alpha="0.54"
-                    android:gravity="center_vertical"
+                    android:gravity="end"
                     android:src="@drawable/ic_received_indicator" />
             </LinearLayout>
         </LinearLayout>

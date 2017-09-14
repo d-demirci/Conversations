@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="?attr/color_background_secondary">
+    android:background="@drawable/chat_background">
 
     <ListView
         android:id="@+id/messages_view"
@@ -12,7 +13,7 @@
         android:layout_above="@+id/snackbar"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:background="?attr/color_background_secondary"
+        android:background="@android:color/transparent"
         android:divider="@null"
         android:dividerHeight="0dp"
         android:listSelector="@android:color/transparent"
@@ -21,45 +22,61 @@
         tools:listitem="@layout/message_sent">
     </ListView>
 
-    <RelativeLayout
+    <LinearLayout
         android:id="@+id/textsend"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
         android:layout_alignParentLeft="true"
-        android:background="?attr/color_background_primary" >
+        android:weightSum="6"
+        android:background="@drawable/rounded_corner"
+         >
 
-        <eu.siacs.conversations.ui.EditMessage
+        <gov.jandarma.ulak.ui.EditMessage
             android:id="@+id/textinput"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_toLeftOf="@+id/textSendButton"
-            android:background="?attr/color_background_primary"
+            android:layout_toLeftOf="@+id/cameraSendButton"
             android:ems="10"
             android:imeOptions="flagNoExtractUi|actionSend"
             android:inputType="textShortMessage|textMultiLine|textCapSentences"
             android:minHeight="48dp"
             android:minLines="1"
-            android:paddingBottom="12dp"
-            android:paddingLeft="8dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="12dp"
             android:paddingRight="8dp"
-            android:paddingTop="12dp"
+            android:paddingTop="8dp"
+            android:layout_weight="4"
+            android:background="@android:color/transparent"
             android:textColor="?attr/color_text_primary" >
 
             <requestFocus />
-        </eu.siacs.conversations.ui.EditMessage>
+        </gov.jandarma.ulak.ui.EditMessage>
+
+
+        <ImageButton
+            android:id="@+id/cameraSendButton"
+            android:layout_toLeftOf="@+id/textSendButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:src="?attr/ic_attach_camera"
+            />
+
 
         <ImageButton
             android:id="@+id/textSendButton"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:background="?attr/color_background_primary"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
             android:src="?attr/ic_send_text_offline"
             android:contentDescription="@string/send_message"/>
-    </RelativeLayout>
+    </LinearLayout>
 
     <RelativeLayout
         android:id="@+id/snackbar"

@@ -15,7 +15,10 @@
         android:layout_alignParentLeft="true"
         android:src="@drawable/ic_profile"
         android:contentDescription="@string/account_image_description"
-        app:riv_corner_radius="2dp" />
+        app:riv_corner_radius="22dip"
+        app:riv_border_width="3dip"
+        app:riv_oval="false"
+        app:riv_border_color="@color/white12" />
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -46,7 +49,7 @@
             android:textStyle="bold" />
     </LinearLayout>
 
-    <eu.siacs.conversations.ui.widget.Switch
+    <gov.jandarma.ulak.ui.widget.Switch
         style="@style/MD"
         android:id="@+id/tgl_account_status"
         android:layout_width="wrap_content"

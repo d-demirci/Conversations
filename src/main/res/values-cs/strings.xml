@@ -351,7 +351,7 @@
   <string name="verified">Ověřeno!</string>
   <string name="smp_requested">Kontakt zažádal o ověření SMP</string>
   <string name="no_otr_session_found">Nebylo nalezeno platné OTR sezení!</string>
-  <string name="conversations_foreground_service">Conversations</string>
+  <string name="conversations_foreground_service">Ulak</string>
   <string name="pref_keep_foreground_service">Ponechat službu v popředí</string>
   <string name="pref_keep_foreground_service_summary">Zamezit operačnímu systému v ukončení připojení</string>
   <string name="pref_export_logs">Exportovat historii</string>

@@ -1,4 +1,4 @@
-package eu.siacs.conversations.services;
+package gov.jandarma.ulak.services;
 
 import android.content.Intent;
 

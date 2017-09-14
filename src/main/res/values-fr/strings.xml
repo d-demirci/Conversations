@@ -362,7 +362,7 @@
   <string name="verified">Vérifié !</string>
   <string name="smp_requested">Le contact requiert la vérification du SMP</string>
   <string name="no_otr_session_found">Aucune session OTR valide n\'a été trouvée !</string>
-  <string name="conversations_foreground_service">Conversations</string>
+  <string name="conversations_foreground_service">Ulak</string>
   <string name="pref_keep_foreground_service">Garder le service au 1er plan</string>
   <string name="pref_keep_foreground_service_summary">Évite que le système ne ferme votre connexion.</string>
   <string name="pref_export_logs">Exporter l\'historique</string>
